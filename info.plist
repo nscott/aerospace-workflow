@@ -1,5 +1,6 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN"
+  "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
 	<key>bundleid</key>
@@ -16,9 +17,9 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string />
 				<key>vitoclose</key>
-				<false/>
+				<false />
 			</dict>
 		</array>
 		<key>B3E834FC-163D-4E82-8842-5379C60A2C2C</key>
@@ -29,9 +30,9 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string />
 				<key>vitoclose</key>
-				<false/>
+				<false />
 			</dict>
 		</array>
 		<key>E0862412-3AD7-4A9A-8111-8886742D9DD4</key>
@@ -42,9 +43,9 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string />
 				<key>vitoclose</key>
-				<false/>
+				<false />
 			</dict>
 		</array>
 		<key>FF9D1381-7756-456C-A2AA-221F7F8B6066</key>
@@ -55,18 +56,19 @@
 				<key>modifiers</key>
 				<integer>0</integer>
 				<key>modifiersubtext</key>
-				<string></string>
+				<string />
 				<key>vitoclose</key>
-				<false/>
+				<false />
 			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
-	<string>Yuri Pereira Teixeira</string>
+	<string>Yuri Pereira Teixeira, forked by Nathan Scott</string>
 	<key>description</key>
-	<string>Shortcuts for common AeroSpace tasks (https://nikitabobko.github.io/AeroSpace/guide)</string>
+	<string
+    >Shortcuts for common AeroSpace tasks (https://nikitabobko.github.io/AeroSpace/guide)</string>
 	<key>disabled</key>
-	<false/>
+	<false />
 	<key>name</key>
 	<string>AeroSpace for Alfred</string>
 	<key>objects</key>
@@ -75,7 +77,7 @@
 			<key>config</key>
 			<dict>
 				<key>concurrently</key>
-				<false/>
+				<false />
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
@@ -83,7 +85,7 @@
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string />
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -102,9 +104,9 @@
 				<key>argument</key>
 				<integer>0</integer>
 				<key>focusedappvariable</key>
-				<false/>
+				<false />
 				<key>focusedappvariablename</key>
-				<string></string>
+				<string />
 				<key>hotkey</key>
 				<integer>49</integer>
 				<key>hotmod</key>
@@ -112,7 +114,7 @@
 				<key>hotstring</key>
 				<string>Space</string>
 				<key>leftcursor</key>
-				<false/>
+				<false />
 				<key>modsmode</key>
 				<integer>0</integer>
 				<key>relatedAppsMode</key>
@@ -129,11 +131,11 @@
 			<key>config</key>
 			<dict>
 				<key>alfredfiltersresults</key>
-				<true/>
+				<true />
 				<key>alfredfiltersresultsmatchmode</key>
 				<integer>3</integer>
 				<key>argumenttreatemptyqueryasnil</key>
-				<true/>
+				<true />
 				<key>argumenttrimmode</key>
 				<integer>0</integer>
 				<key>argumenttype</key>
@@ -143,27 +145,27 @@
 				<key>queuedelaycustom</key>
 				<integer>3</integer>
 				<key>queuedelayimmediatelyinitially</key>
-				<true/>
+				<true />
 				<key>queuedelaymode</key>
 				<integer>0</integer>
 				<key>queuemode</key>
 				<integer>1</integer>
 				<key>runningsubtext</key>
-				<string></string>
+				<string />
 				<key>script</key>
 				<string>cat ./windows.json</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string />
 				<key>subtext</key>
-				<string></string>
+				<string />
 				<key>title</key>
-				<string></string>
+				<string />
 				<key>type</key>
 				<integer>0</integer>
 				<key>withspace</key>
-				<false/>
+				<false />
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.scriptfilter</string>
@@ -176,7 +178,7 @@
 			<key>config</key>
 			<dict>
 				<key>concurrently</key>
-				<false/>
+				<false />
 				<key>escaping</key>
 				<integer>102</integer>
 				<key>script</key>
@@ -186,7 +188,7 @@ aerospace focus --window-id $query</string>
 				<key>scriptargtype</key>
 				<integer>1</integer>
 				<key>scriptfile</key>
-				<string></string>
+				<string />
 				<key>type</key>
 				<integer>0</integer>
 			</dict>
@@ -209,7 +211,7 @@ aerospace focus --window-id $query</string>
 				<key>text</key>
 				<string>AeroSpace Windows</string>
 				<key>withspace</key>
-				<false/>
+				<false />
 			</dict>
 			<key>type</key>
 			<string>alfred.workflow.input.keyword</string>
@@ -220,7 +222,7 @@ aerospace focus --window-id $query</string>
 		</dict>
 	</array>
 	<key>readme</key>
-	<string># AeroSpace for Alfred 
+	<string># AeroSpace for Alfred
 
 ![AeroSpace for Alfred](./docs/assets/screenshot.png)
 
@@ -278,7 +280,7 @@ See https://nikitabobko.github.io/AeroSpace/guide
 		</dict>
 	</dict>
 	<key>userconfigurationconfig</key>
-	<array/>
+	<array />
 	<key>version</key>
 	<string>0.0.1</string>
 	<key>webaddress</key>
